@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">CUKCUKLite</string>
+
+    <string name="sell">Bán hàng</string>
+    <string name="menu">Thực đơn</string>
+    <string name="report">Báo cáo</string>
+    <string name="add">Add</string>
+
+    <string name="sync_data">Đồng bộ dữ liệu</string>
+    <string name="setting">Thiết lập</string>
+    <string name="link_account">Liên kết tài khoản</string>
+
+    <string name="help">Trợ giúp</string>
+    <string name="notification">Thông báo</string>
+    <string name="recommend_to_friend">Giới thiệu cho bạn bè</string>
+    <string name="rate_app">Đánh giá ứng dụng</string>
+    <string name="feedback_to_developer">Góp ý với nhà phát triển</string>
+    <string name="app_infomation">Thông tin sản phẩm</string>
+    <string name="account">Tài khoản</string>
+    <string name="set_password">Đặt mật khẩu</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="collect_money">Thu tiền</string>
+    <string name="collect_money_upper">THU TIỀN</string>
+    <string name="oder_food">Chọn món</string>
+    <string name="stored">Cất</string>
+    <string name="stored_upper">CẤT</string>
+    <string name="total_money">Tổng tiền</string>
+    <string name="zero">0</string>
+    <string name="title_activity_sell_food">SellFoodActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="cancel">Hủy</string>
+    <string name="insert_food">Thêm món</string>
+    <string name="name_food">Tên món</string>
+    <string name="enter_food_name">Nhập tên món</string>
+    <string name="price_food">Giá bán</string>
+    <string name="price_food_with_agrument">Giá bán: %s</string>
+    <string name="unit_already_exist">Đơn vị tính %s đã tồn tại.</string>
+    <string name="are_you_sure_to_delete_unit">Bạn có chắc chắn muốn xóa đơn vị tính (%s) không?</string>
+    <string name="are_you_sure_to_delete_food">Bạn có chắc chắn muốn xóa món (%s) không?</string>
+    <string name="cannot_delete_unit">Đơn vị tính (%s) đã được sử dụng. Bạn không được phép xóa.</string>
+    <string name="unit">Đơn vị tính</string>
+    <string name="colorway">Màu sắc</string>
+    <string name="symbol">Biểu tượng</string>
+    <string name="update_food">Sửa món</string>
+    <string name="state">Trạng thái</string>
+    <string name="stop_sell">Ngừng bán</string>
+    <string name="delete">XÓA</string>
+    <string name="done">XONG</string>
+    <string name="add_unit">Thêm đơn vị tính</string>
+    <string name="cancel_upper">HỦY BỎ</string>
+    <string name="enter_unit">Nhập đơn vị tính</string>
+    <string name="update_unit">Sửa đơn vị tính</string>
+    <string name="remove_unit">Xoá đơn vị tính</string>
+    <string name="app_name_upper">CUKCUK LITE</string>
+    <string name="no">KHÔNG</string>
+    <string name="yes">CÓ</string>
+    <string name="delete_unit">Xóa đơn vị tính</string>
+    <string name="delete_unit_fail">Đã xảy ra lỗi khi xóa đơn vị tính.</string>
+    <string name="delete_food_fail">Đã xảy ra lỗi khi xóa món ăn.</string>
+    <string name="food_name_cannot_empty">Tên món không được để trống.</string>
+    <string name="you_must_enter_unit">Bạn chưa chọn đơn vị tính.</string>
+    <string name="unit_cannot_empty">Không được bỏ trống đơn vị.</string>
+    <string name="name_food_star">Tên món <font fgcolor='red'>*</font></string>
+    <string name="unit_star">Đơn vị tính <font fgcolor='red'>*</font></string>
+    <string name="cancel_color">Huỷ bỏ</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_abs">"\u00B1"</string>
+    <string name="key_sub">-</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_add">+</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_0">0</string>
+    <string name="key_000">000</string>
+    <string name="key_comma">,</string>
+    <string name="enter_food_price">Nhập giá sản phẩm</string>
+
+
+</resources>

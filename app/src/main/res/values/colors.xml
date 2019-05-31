@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#368BC3</color>
+    <color name="colorPrimaryDark">#0973B9</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#D1CECE</color>
+    <color name="colorLightGray">#EDEDED</color>
+    <color name="colorLightBlue">#26C6DA</color>
+    <color name="colorBackground">#D1D6DC</color>
+    <color name="coloRed">#F44336</color>
+
+    <color name="colorCyan">#26C6DA</color>
+    <color name="colorDarkCyan">#0097A7</color>
+    <color name="colorDarkBlue">#0D47A1</color>
+    <color name="colorPrimaryBlue">#1565C0</color>
+    <color name="colorBlue">#039BE5</color>
+    <color name="colorWhiteBlue">#64B5F6</color>
+    <color name="colorOrange">#FF6F00</color>
+    <color name="colorDarkYellow">#FFA000</color>
+    <color name="colorYellow">#FFB300</color>
+    <color name="colorLightYellow">#CE9600</color>
+    <color name="colorLightBrown">#8D6E63</color>
+    <color name="colorBrown">#6D4C41</color>
+    <color name="colorOrangeRed">#D32F2F</color>
+    <color name="colorRed">#FF1744</color>
+    <color name="colorRedYellow">#F44336</color>
+    <color name="colorPink">#EC407A</color>
+    <color name="colorDarkPink">#AD1457</color>
+    <color name="colorDarkPurple">#6A189A</color>
+    <color name="colorPurple">#AB47BC</color>
+    <color name="colorLightPurple">#BA68C8</color>
+    <color name="colorDarkGreen">#00695C</color>
+    <color name="colorPrimaryGreen">#00897B</color>
+    <color name="colorWhiteGreen">#4D86AC</color>
+    <color name="colorGreen">#2E7D32</color>
+    <color name="colorlightGreen">#43A047</color>
+    <color name="colorNeon">#64DD17</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhiteGray">#5F7C8A</color>
+    <color name="colorSuperLightGray">#B0BEC5</color>
+    <color name="colorPrimaryGray">#455A64</color>
+    <color name="colorGrayBrown">#607D8B</color>
+    <color name="colorLightGrayBrown">#90A4AE</color>
+
+
+    <color name="colorInvisible">#99000000</color>
+
+
+</resources>

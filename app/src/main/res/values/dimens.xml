@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_nav_size">50dp</dimen>
+    <dimen name="nav_size">160dp</dimen>
+    <dimen name="medium_text_size">20sp</dimen>
+    <dimen name="nav_margin_item">15dp</dimen>
+    <dimen name="nav_margin_image">30dp</dimen>
+    <dimen name="title_text_size">20dp</dimen>
+
+    <dimen name="margin_item">15dp</dimen>
+    <dimen name="food_text_size">18sp</dimen>
+
+
+    <dimen name="dimen_sell_item">10dp</dimen>
+    <dimen name="image_sell_table">60dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="table_view_size">140dp</dimen>
+
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_half_small">5dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_medium">20dp</dimen>
+    <dimen name="padding_large">30dp</dimen>
+    <dimen name="margin_large">30dp</dimen>
+
+    <dimen name="image_nano_size">15dp</dimen>
+    <dimen name="table_info_food_size">90dp</dimen>
+    <dimen name="border_size">1dp</dimen>
+    <dimen name="table_info_btn_size">50dp</dimen>
+    <dimen name="icon_large">50dp</dimen>
+    <dimen name="icon_medium">40dp</dimen>
+    <dimen name="icon_small">30dp</dimen>
+    <dimen name="icon_xsmall">20dp</dimen>
+    <dimen name="bottom_bar_size">50dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="small_size">10dp</dimen>
+    <dimen name="frame_medium">50dp</dimen>
+    <dimen name="tv_large">100dp</dimen>
+    <dimen name="padding_dialog">15dp</dimen>
+    <dimen name="text_size_medium">25dp</dimen>
+    <dimen name="padding_dialog_caculator">16dp</dimen>
+    <dimen name="margin_dialog_caculator">16dp</dimen>
+    <dimen name="size_tv_caculator">48dp</dimen>
+    <dimen name="dimen_tv_caculator">8dp</dimen>
+
+
+</resources>

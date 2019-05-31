@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/table_view_size"
+    android:layout_marginLeft="@dimen/margin_small"
+    android:layout_marginRight="@dimen/margin_small"
+    android:layout_marginTop="@dimen/margin_small">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_small"
+        android:id="@+id/layout_table"
+        android:background="@color/colorWhite">
+
+        <FrameLayout
+            android:layout_width="@dimen/image_sell_table"
+            android:layout_height="@dimen/image_sell_table"
+            android:id="@+id/frame_circle_tv">
+            <TextView
+                android:layout_width="@dimen/image_sell_table"
+                android:layout_height="@dimen/image_sell_table"
+                android:id="@+id/tv_table_number"
+                android:textColor="@color/colorWhite"
+                android:text="5"
+                android:textSize="@dimen/title_text_size"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frame_circle_tv"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_medium">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/food_text_size"
+                android:textStyle="bold"
+                android:text="2"
+                android:id="@+id/tv_customer_number"
+                android:maxLines="1"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_customer"
+                android:layout_below="@id/tv_table_number"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/table_info_food_size"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@id/layout_table"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_small">
+
+        <TextView
+            android:id="@+id/tv_list_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:paddingLeft="@dimen/padding_small"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/food_text_size"
+            android:layout_toLeftOf="@id/iv_right_gray"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/tv_total_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_list_food"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="@dimen/padding_small"
+            android:textSize="@dimen/food_text_size"
+            android:layout_toLeftOf="@id/iv_right_gray"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:id="@+id/iv_right_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_right_gray" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/table_info_btn_size"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/layout_table">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/btn_cancel"
+            android:layout_marginLeft="@dimen/border_size"
+            android:layout_marginTop="@dimen/border_size"
+            android:background="@color/colorLightGray">
+            <ImageView
+                android:layout_width="@dimen/icon_small"
+                android:layout_height="@dimen/icon_small"
+                android:background="@drawable/ic_close_red_28dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/food_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/btn_collect_money"
+            android:layout_marginLeft="@dimen/border_size"
+            android:layout_marginTop="@dimen/border_size"
+            android:background="@color/colorLightGray">
+            <ImageView
+                android:layout_width="@dimen/icon_small"
+                android:layout_height="@dimen/icon_small"
+                android:background="@drawable/ic_dollar_orange"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/collect_money"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/food_text_size"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".orderFood.OderFoodActivity"
+    android:background="@color/colorBackground">
+
+    <include
+        layout="@layout/oder_food_bar"
+        android:id="@+id/oder_food_bar">
+    </include>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rc_food"
+        android:layout_below="@id/oder_food_bar"
+        android:layout_above="@id/layout_cal_number">
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_bar"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_small"
+        android:background="@color/colorLightGray"
+        android:id="@+id/layout_cal_number">
+        <ImageView
+            android:layout_width="@dimen/icon_small"
+            android:layout_height="@dimen/icon_small"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_table_blue"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/icon_medium"
+            android:layout_height="@dimen/icon_small"
+            android:layout_marginLeft="@dimen/margin_half_small"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="@dimen/corner_radius">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"/>
+        </android.support.v7.widget.CardView>
+        <ImageView
+            android:layout_width="@dimen/icon_xsmall"
+            android:layout_height="@dimen/icon_xsmall"
+            android:background="@drawable/ic_customer"
+            android:layout_gravity="center_vertical"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/icon_medium"
+            android:layout_height="@dimen/icon_small"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="@dimen/corner_radius">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"/>
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/icon_small"
+            android:text="@string/total_money"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/food_text_size"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margin_half_small"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/food_text_size"
+            android:textColor="@color/colorBlack"
+            android:text="@string/zero"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/bottom_bar_size"
+            android:layout_margin="@dimen/margin_small"
+            app:cardCornerRadius="@dimen/corner_radius"
+            app:cardBackgroundColor="@color/colorWhite">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_keyboard_voice"
+                android:padding="@dimen/padding_small"/>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/bottom_bar_size"
+            app:cardCornerRadius="@dimen/corner_radius"
+            app:cardBackgroundColor="@color/colorWhite"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/stored_upper"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/food_text_size" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="@dimen/bottom_bar_size"
+            app:cardCornerRadius="@dimen/corner_radius"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/collect_money_upper"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/food_text_size" />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
